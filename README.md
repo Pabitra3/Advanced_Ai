@@ -517,7 +517,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you find Intellexa helpful, please give it a ⭐️ on GitHub!
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by [Pabitra Kumar Sahoo]**
 
 [Report Bug](https://github.com/Pabitra3/Advanced_Ai/issues) · [Request Feature](https://github.com/Pabitra3/Advanced_Ai/issues) · [Documentation](https://github.com/Pabitra3/Advanced_Ai/wiki)
 
