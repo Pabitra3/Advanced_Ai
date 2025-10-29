@@ -1,36 +1,41 @@
-# Core app framework
+# Core App Framework
 streamlit==1.39.0
 requests==2.32.3
 python-dotenv==1.0.1
 
-# Data handling & math
+# Data Handling & Math
 pandas==2.2.3
 numpy==1.26.4
 
-# Visualization & animation
+# Visualization & 3D Animation
 matplotlib==3.9.2
-networkx==3.4.2
+networkx==3.3
+plotly==5.24.1
+pythreejs==2.4.2
+vpython==7.6.5
+PyOpenGL==3.1.7
+
+# File & PDF Handling
 fpdf==1.7.2
-Pillow==10.4.0  # ✅ compatible with streamlit
 
-# 3D plots & animation
-imageio==2.36.0
-imageio-ffmpeg==0.5.1
- # optional wrapper for animations
-
-# Audio & speech processing
+# Text-to-Speech and Audio
 gTTS==2.5.4
-SpeechRecognition==3.10.4
-librosa==0.10.2.post1
-soundfile==0.12.1
+SpeechRecognition==3.10.1
+pydub==0.25.1
 
-# Video & emotion analysis
-opencv-python==4.10.0.84
-fer==22.5.0
+# Computer Vision & Video Processing
+opencv-python-headless==4.10.0.84
 mediapipe==0.10.14
 moviepy==1.0.3
 
-# Utilities
-tqdm==4.66.5
+# Emotion, Face, and Behavior Analysis
+fer==22.5.1
+deepface==0.0.93
 
-pydub==0.25.1
+# AI/NLP & ML
+transformers==4.45.1
+scikit-learn==1.5.2
+
+# Utilities
+Pillow==10.4.0
+tqdm==4.66.5
