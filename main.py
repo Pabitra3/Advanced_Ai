@@ -812,8 +812,18 @@ with tabs[2]:
         step=1,
         help="AI can generate up to 150 interview questions at once"
     )
-    domain = st.selectbox("Choose your interview domain", 
-                         ["General", "Cybersecurity", "AI/ML", "Web Development", "Data Science"])
+    col1, col2 = st.columns(2)
+    with col1:
+        domain = st.selectbox("Choose your interview domain", 
+                             ["General", "Cybersecurity", "AI/ML", "Web Development", "Data Science"])
+    
+    with col2:
+        difficulty_level = st.selectbox(
+            "Select difficulty level",
+            ["Beginner", "Intermediate", "Advanced", "Expert"],
+            index=1,
+            help="Choose the difficulty level for interview questions"
+        )
 
     if st.button("🧩 Generate Interview Questions"):
         with st.spinner("Generating interview questions..."):
